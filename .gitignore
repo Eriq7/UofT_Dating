@@ -5,3 +5,30 @@ dist/
 build/
 .env
 .env.local
+# Env (all variants)
+.env.*
+**/.env
+**/.env.*
+
+# Firebase / mobile config (should not be public)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Keys / certs
+*.pem
+*.p12
+*.pfx
+*.jks
+*.key
+id_rsa
+
+# Test artifacts / captured traffic (big + can contain tokens)
+**/playwright-hars/
+**/*.har
+
+# Expo / React Native / misc
+.expo/
+web-build/
+coverage/
+*.log
+
