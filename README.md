@@ -74,44 +74,25 @@ Account registration is restricted at the domain level.
 - Only `@mail.utoronto.ca` and `@utoronto.ca` emails are accepted
 - Non-UofT domains are rejected before verification
 
-This prevents unauthorized or external users from entering the system.
-
 ---
 
 ### 🔑 OTP Email Verification
 
 ![OTP Email Verification](docs/screenshots/05-otp-email.png)
 
-To complete authentication:
-
 - A one-time password (OTP) is sent to the verified UofT email
 - OTP is validated server-side before login is finalized
 
-This ensures strong ownership verification and reduces fake accounts.
-
 ---
 
-## 🛠️ Technology Stack
+## 🧩 Tech Stack
 
-### Frontend
-- **React Native (Expo)**
-- **TypeScript**
-- JavaScript
-- Metro Bundler
-
-### Backend
-- **Python**
-- **PostgreSQL**
-- **WebSocket**
-- HTTP-based APIs
-
-### Database
-- **PostgreSQL**
-- SQL migrations
-
-### Runtime & Environment
-- Docker
-- Docker Compose
+| Category | Tools / Libraries |
+|--------|------------------|
+| Frontend | React Native (Expo), TypeScript, JavaScript, Metro Bundler |
+| Backend | Python, WebSocket, HTTP-based APIs |
+| Database | PostgreSQL, SQL Migrations |
+| Runtime & Environment | Docker, Docker Compose |
 
 ---
 
